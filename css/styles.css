@@ -475,9 +475,7 @@ h2 {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
-  transform: translateY(100%);
+  transform: translateY(101%);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
