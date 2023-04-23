@@ -680,3 +680,47 @@ h2 {
 .social-icon:focus .circle-social-icon {
   fill: #2196f3;
 }
+
+.is-hidden {
+  pointer-events: none;
+  visibility: hidden;
+  opacity: 0;
+  transform: translateX(-50%) translateY(-50%) scale(0);
+}
+
+.inside-modal {
+  position: absolute;
+  height: 581px;
+  width: 528px;
+  background-color: var(--white-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  transform: translate(0);
+}
+.modal {
+  position: fixed;
+  visibility: visible;
+  height: 100%;
+  width: 100%;
+  left: 0px;
+  top: 0px;
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.close-data-modal {
+  position: absolute;
+  top: 8px;
+  right: 5px;
+  border: 0;
+  background-color: var(--white-color);
+}
+
+.modal-test {
+  width: 30px;
+  height: 30px;
+  padding-right: 0;
+}

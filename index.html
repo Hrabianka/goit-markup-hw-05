@@ -62,7 +62,16 @@
           <div class="main-flex">
             <h1 class="main-h1">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
 
-            <button type="button" class="main-button">Zamów usługe</button>
+            <button data-modal-open class="main-button">Zamów usługe</button>
+            <div class="modal is-hidden" data-modal>
+              <div class="inside-modal">
+              <button data-modal-close class="close-data-modal">
+                <svg class="modal-test">
+                  <use href="./images/icons.svg#icon-closeclose-but" width="30" heigh="30"></use>
+                </svg>
+              </button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -516,6 +525,7 @@
         </div>
       </div>
     </footer>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
 <!--  -->
