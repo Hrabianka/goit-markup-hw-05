@@ -65,7 +65,7 @@ h2 {
   color: inherit;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: color fill;
+  transition-property: color, fill;
 }
 
 .logo-footer {
@@ -206,7 +206,7 @@ h2 {
   margin-top: 30px;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: color background;
+  transition-property: color, background;
   /*
   margin-left: 248px;
   margin-right: 248px;*/
@@ -224,7 +224,7 @@ h2 {
   border-radius: 4px;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: color backgroud box-shadow;
+  transition-property: color, backgroud, box-shadow;
 }
 .main-footer {
   background: var(--grey-color);
@@ -281,7 +281,7 @@ h2 {
   color: var(--silver-color);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: color fill;
+  transition-property: color, fill;
 }
 
 .index {
@@ -466,7 +466,7 @@ h2 {
   overflow: hidden;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: width height transform;
+  transition-property: width, height, transform;
 }
 
 .overlay {
@@ -576,7 +576,7 @@ h2 {
   outline: 1px auto #afb1b8;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: fill outline-color;
+  transition-property: fill, outline-color;
 }
 
 .ikona:hover,
